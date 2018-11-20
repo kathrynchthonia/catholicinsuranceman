@@ -61,41 +61,6 @@
       <li><a class='white-text' href="#start">Get Started</a></li>
       <li><a class='white-text' href="#about">About</a></li>
       <li><a class='white-text' href="#contact">Contact</a></li>
-    </ul>
-
-    <div class="blue darken-4">
-    <!-- Family Leader -->
-    <img
-      src="./img/familyleader2.jpg"
-      alt="Family"
-      class="leader-img responsive-img z-depth-2 blue"
-    />
-
-    <!-- Hero -->
-    <div class="row blue darken-4">
-      <div class="container">
-        
-          <h5
-          class="mobile-header hide-on-med-and-up center amber-text text-darken-2 bold"
-        >
-        <?php bloginfo('name'); ?>
-        </h5>
-        <h6 class="white-text center bold">
-          Serving the Catholic Community for Over 30 Years
-        </h6>
-      </div>
-    </div>
-
-    <!-- Call now -->
-    <div class="row scrollspy" id='contact'>
-      <div class="col s6 offset-s3 center py-15">
-        <a href='tel:+1-877-549-1212' class="btn green darken-1 waves-effect waves-light z-depth-3 hoverable">
-          Call Now <span class="blue-text text-darken-2 bold">877-549-1212
-        </span> 
-        </a>
-      </div>
-    </div>
-
-    </div>
+</ul>
 
     <!-- End Header -->

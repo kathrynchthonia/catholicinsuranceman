@@ -9,6 +9,9 @@ function mw_theme_setup() {
   register_nav_menus(array(
     'primary' => __('Primary Menu')
   ));
+
+
+  
 }
 
 add_action('after_setup_theme', 'mw_theme_setup');
@@ -24,9 +27,9 @@ add_action('after_setup_theme', 'mw_theme_setup');
     register_sidebar(array(
       'name' => 'Sidebar',
       'id'  => 'sidebar',
-      'before_widget' => '<div class="container">',
+      'before_widget' => '<div class="container my25 white-text">',
       'after_widget'  => '</div>',
-      'before_title' => '<h4 class="white-text blue">',
+      'before_title' => '<h4 class="white-text center indigo darken-1 z-depth-4 mt-50">',
       'after_title'  => '</h4>'
     ));
   }

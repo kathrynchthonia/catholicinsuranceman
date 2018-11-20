@@ -92,7 +92,7 @@ input {
   padding: 10px;
   overflow: auto;
 }
-comment-meta img {
+.comment-meta img {
   float: left;
 }
 
@@ -137,7 +137,11 @@ comment-meta img {
   font-weight: bold;
 }
 
-text-white {
+.text-white {
+  color: white !important;
+}
+
+.white-text a {
   color: white !important;
 }
 
@@ -149,6 +153,10 @@ text-white {
 .my-0 {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
+}
+.my-25 {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
 }
 
 .mt-0 {

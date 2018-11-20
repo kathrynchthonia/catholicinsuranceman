@@ -1,8 +1,11 @@
   <!-- Sidebar -->
 <ul class="sidenav indigo darken-4 white-text" id="side-bar" style="width: 60%;">
+    <li class='right-align'><i class="fas fa-window-close white-text mr-25 mt-50 sidenav-close"></i></li>
     <!-- Widget area -->
     <?php if(is_active_sidebar('sidebar')): ?>
+      <li class='my-2 flow-text overflow-hidden'>
       <?php dynamic_sidebar('sidebar'); ?>
+      </li>
     <?php endif; ?>
     <!-- End widget area -->
     </ul>
@@ -14,11 +17,10 @@
     <a href="tel:+1-877-549-1212" class="btn-floating pulse btn-large green darken-2 waves-effect waves-light hoverble initfab"><i class="material-icons white-text">phone</i>
       </a>
       <ul>
-        <li><a href="#start" class="btn-floating indigo darken-4 darken-2 waves-effect waves-light hoverable"><i class="material-icons white-text">email</i>
-        </a></li>
          <!-- Activates Sidebar -->
-         <li><a href="#" class="btn-floating indigo darken-4 darken-2 waves-effect waves-light sidenav-trigger show-on-large" data-target="side-bar" ><i class="material-icons white-text">menu</i>
+         <li><a href="#" class="btn-floating indigo darken-4 darken-2 waves-effect waves-light sidenav-trigger show-on-large" data-target="side-bar" ><i class="material-icons white-text">email</i>
         </a></li>
+
       </ul>
   </div>
 
